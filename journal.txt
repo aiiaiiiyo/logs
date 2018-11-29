@@ -1,0 +1,1655 @@
+-- Logs begin at Thu 2018-11-29 18:10:06 CET, end at Thu 2018-11-29 18:17:08 CET. --
+Nov 29 18:10:06 RetrOrangePi systemd-journal[205]: Runtime journal is using 4.0M (max allowed 9.9M, trying to leave 14.8M free of 94.7M available → current limit 9.9M).
+Nov 29 18:10:06 RetrOrangePi systemd-journal[205]: Runtime journal is using 4.0M (max allowed 9.9M, trying to leave 14.8M free of 94.7M available → current limit 9.9M).
+Nov 29 18:10:06 RetrOrangePi systemd-journal[205]: Journal started
+-- Subject: The Journal has been started
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- The system journal process has been starting up, opened the journal
+-- files for writing and is now ready to process requests.
+Nov 29 18:10:06 RetrOrangePi systemd-modules-load[187]: Module 'fuse' is builtin
+Nov 29 18:10:06 RetrOrangePi systemd-modules-load[187]: Module 'uinput' is builtin
+Nov 29 18:10:06 RetrOrangePi fake-hwclock[166]: Thu Nov 29 17:10:05 UTC 2018
+Nov 29 18:10:06 RetrOrangePi asplashscreen.sh[168]: Audio Device:   Advanced Linux Sound Architecture (ALSA) output
+Nov 29 18:10:06 RetrOrangePi asplashscreen.sh[168]: Playing: /home/pi/RetroPie/splashscreens/bootsnd.ogg
+Nov 29 18:10:06 RetrOrangePi asplashscreen.sh[168]: Ogg Vorbis stream: 2 channel, 44100 Hz
+Nov 29 18:10:06 RetrOrangePi asplashscreen.sh[168]: Encoder: VLC media player
+Nov 29 18:10:06 RetrOrangePi asplashscreen.sh[168]: Failed to create secure directory (/root/.config/pulse): Read-only file system
+Nov 29 18:10:06 RetrOrangePi asplashscreen.sh[168]: ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.front
+Nov 29 18:10:06 RetrOrangePi asplashscreen.sh[168]: ALSA lib pcm_direct.c:1539:(_snd_pcm_direct_get_slave_ipc_offset) Invalid value for card
+Nov 29 18:10:06 RetrOrangePi asplashscreen.sh[168]: ERROR: Cannot open device alsa.
+Nov 29 18:10:06 RetrOrangePi resolvconf[196]: /etc/resolvconf/update.d/libc: Warning: /etc/resolv.conf is not a symbolic link to /etc/resolvconf/run/resolv.conf
+Nov 29 18:10:06 RetrOrangePi systemd[1]: Started Create Static Device Nodes in /dev.
+-- Subject: Unit systemd-tmpfiles-setup-dev.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-tmpfiles-setup-dev.service has finished starting up.
+-- 
+-- The start-up result is done.
+Nov 29 18:10:06 RetrOrangePi systemd[1]: Starting udev Kernel Device Manager...
+-- Subject: Unit systemd-udevd.service has begun with start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-udevd.service has begun starting up.
+Nov 29 18:10:06 RetrOrangePi systemd-modules-load[187]: Inserted module 'dhd'
+Nov 29 18:10:06 RetrOrangePi systemd-modules-load[187]: Inserted module 'hci_uart'
+Nov 29 18:10:06 RetrOrangePi systemd[1]: Started udev Kernel Device Manager.
+-- Subject: Unit systemd-udevd.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-udevd.service has finished starting up.
+-- 
+-- The start-up result is done.
+Nov 29 18:10:06 RetrOrangePi systemd[1]: Starting Copy rules generated while the root was ro...
+-- Subject: Unit udev-finish.service has begun with start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit udev-finish.service has begun starting up.
+Nov 29 18:10:06 RetrOrangePi systemd-modules-load[187]: Inserted module 'rfcomm'
+Nov 29 18:10:06 RetrOrangePi systemd-modules-load[187]: Inserted module 'hidp'
+Nov 29 18:10:06 RetrOrangePi systemd-modules-load[187]: Inserted module 'ump'
+Nov 29 18:10:06 RetrOrangePi systemd-modules-load[187]: Inserted module 'drm'
+Nov 29 18:10:06 RetrOrangePi systemd-udevd[219]: invalid key/value pair in file /etc/udev/rules.d/10-permissions.rules on line 4,starting at character 1 ('E')
+Nov 29 18:10:06 RetrOrangePi systemd-udevd[219]: invalid key/value pair in file /etc/udev/rules.d/10-permissions.rules on line 6,starting at character 1 ('E')
+Nov 29 18:10:06 RetrOrangePi systemd-udevd[219]: invalid key/value pair in file /etc/udev/rules.d/10-permissions.rules on line 8,starting at character 1 ('U')
+Nov 29 18:10:06 RetrOrangePi systemd-modules-load[187]: Inserted module 'mali'
+Nov 29 18:10:06 RetrOrangePi systemd-modules-load[187]: Inserted module 'mali_drm'
+Nov 29 18:10:06 RetrOrangePi systemd[1]: Starting LSB: Set preliminary keymap...
+-- Subject: Unit keyboard-setup.service has begun with start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit keyboard-setup.service has begun starting up.
+Nov 29 18:10:07 RetrOrangePi systemd-udevd[219]: invalid key/value pair in file /etc/udev/rules.d/99-input.rules on line 1,starting at character 1 ('U')
+Nov 29 18:10:07 RetrOrangePi systemd-udevd[219]: invalid key/value pair in file /etc/udev/rules.d/99-input.rules on line 2,starting at character 1 ('E')
+Nov 29 18:10:07 RetrOrangePi systemd[1]: Starting LSB: Tune IDE hard disks...
+-- Subject: Unit hdparm.service has begun with start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit hdparm.service has begun starting up.
+Nov 29 18:10:07 RetrOrangePi systemd[1]: Mounted FUSE Control File System.
+-- Subject: Unit sys-fs-fuse-connections.mount has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit sys-fs-fuse-connections.mount has finished starting up.
+-- 
+-- The start-up result is done.
+Nov 29 18:10:07 RetrOrangePi systemd[1]: Started Load Kernel Modules.
+-- Subject: Unit systemd-modules-load.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-modules-load.service has finished starting up.
+-- 
+-- The start-up result is done.
+Nov 29 18:10:07 RetrOrangePi hdparm[224]: Setting parameters of disc: (none).
+Nov 29 18:10:07 RetrOrangePi systemd[1]: Started Copy rules generated while the root was ro.
+-- Subject: Unit udev-finish.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit udev-finish.service has finished starting up.
+-- 
+-- The start-up result is done.
+Nov 29 18:10:07 RetrOrangePi systemd-udevd[263]: failed to execute '/lib/udev/mtp-probe' 'mtp-probe /sys/devices/platform/sunxi-ohci.1/usb2/2-1 2 2': No such file or directory
+Nov 29 18:10:07 RetrOrangePi systemd[1]: Started LSB: Tune IDE hard disks.
+-- Subject: Unit hdparm.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit hdparm.service has finished starting up.
+-- 
+-- The start-up result is done.
+Nov 29 18:10:07 RetrOrangePi systemd[1]: Found device /dev/ttyS0.
+-- Subject: Unit dev-ttyS0.device has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit dev-ttyS0.device has finished starting up.
+-- 
+-- The start-up result is done.
+Nov 29 18:10:07 RetrOrangePi systemd[1]: Starting Sound Card.
+-- Subject: Unit sound.target has begun with start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit sound.target has begun starting up.
+Nov 29 18:10:07 RetrOrangePi systemd[1]: Reached target Sound Card.
+-- Subject: Unit sound.target has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit sound.target has finished starting up.
+-- 
+-- The start-up result is done.
+Nov 29 18:10:07 RetrOrangePi systemd[1]: Mounted Configuration File System.
+-- Subject: Unit sys-kernel-config.mount has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit sys-kernel-config.mount has finished starting up.
+-- 
+-- The start-up result is done.
+Nov 29 18:10:07 RetrOrangePi systemd[1]: Starting Apply Kernel Variables...
+-- Subject: Unit systemd-sysctl.service has begun with start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-sysctl.service has begun starting up.
+Nov 29 18:10:07 RetrOrangePi systemd[1]: Started Apply Kernel Variables.
+-- Subject: Unit systemd-sysctl.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-sysctl.service has finished starting up.
+-- 
+-- The start-up result is done.
+Nov 29 18:10:07 RetrOrangePi systemd[1]: Starting system-systemd\x2drfkill.slice.
+-- Subject: Unit system-systemd\x2drfkill.slice has begun with start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit system-systemd\x2drfkill.slice has begun starting up.
+Nov 29 18:10:07 RetrOrangePi systemd[1]: Created slice system-systemd\x2drfkill.slice.
+-- Subject: Unit system-systemd\x2drfkill.slice has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit system-systemd\x2drfkill.slice has finished starting up.
+-- 
+-- The start-up result is done.
+Nov 29 18:10:07 RetrOrangePi keyboard-setup[223]: Setting preliminary keymap...done.
+Nov 29 18:10:07 RetrOrangePi systemd[1]: Started LSB: Set preliminary keymap.
+-- Subject: Unit keyboard-setup.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit keyboard-setup.service has finished starting up.
+-- 
+-- The start-up result is done.
+Nov 29 18:10:07 RetrOrangePi systemd[1]: Starting Remount Root and Kernel File Systems...
+-- Subject: Unit systemd-remount-fs.service has begun with start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-remount-fs.service has begun starting up.
+Nov 29 18:10:07 RetrOrangePi systemd[1]: Started Remount Root and Kernel File Systems.
+-- Subject: Unit systemd-remount-fs.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-remount-fs.service has finished starting up.
+-- 
+-- The start-up result is done.
+Nov 29 18:10:07 RetrOrangePi systemd[1]: Starting Load/Save RF Kill Switch Status of rfkill0...
+-- Subject: Unit systemd-rfkill@rfkill0.service has begun with start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-rfkill@rfkill0.service has begun starting up.
+Nov 29 18:10:07 RetrOrangePi systemd[1]: Starting Load/Save RF Kill Switch Status of rfkill1...
+-- Subject: Unit systemd-rfkill@rfkill1.service has begun with start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-rfkill@rfkill1.service has begun starting up.
+Nov 29 18:10:07 RetrOrangePi systemd[1]: Started Various fixups to make systemd work better on Debian.
+-- Subject: Unit debian-fixup.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit debian-fixup.service has finished starting up.
+-- 
+-- The start-up result is done.
+Nov 29 18:10:07 RetrOrangePi systemd[1]: Starting Local File Systems (Pre).
+-- Subject: Unit local-fs-pre.target has begun with start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit local-fs-pre.target has begun starting up.
+Nov 29 18:10:07 RetrOrangePi systemd[1]: Reached target Local File Systems (Pre).
+-- Subject: Unit local-fs-pre.target has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit local-fs-pre.target has finished starting up.
+-- 
+-- The start-up result is done.
+Nov 29 18:10:07 RetrOrangePi systemd[1]: Mounting /tmp...
+-- Subject: Unit tmp.mount has begun with start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit tmp.mount has begun starting up.
+Nov 29 18:10:07 RetrOrangePi systemd[1]: tmp.mount: Directory /tmp to mount over is not empty, mounting anyway.
+-- Subject: Mount point is not empty
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- The directory /tmp is specified as the mount point (second field in
+-- /etc/fstab or Where= field in systemd unit file) and is not empty.
+-- This does not interfere with mounting, but the pre-exisiting files in
+-- this directory become inaccessible. To see those over-mounted files,
+-- please manually mount the underlying file system to a secondary
+-- location.
+Nov 29 18:10:07 RetrOrangePi systemd[1]: Starting Load/Save Random Seed...
+-- Subject: Unit systemd-random-seed.service has begun with start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-random-seed.service has begun starting up.
+Nov 29 18:10:07 RetrOrangePi systemd[1]: Mounted /tmp.
+-- Subject: Unit tmp.mount has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit tmp.mount has finished starting up.
+-- 
+-- The start-up result is done.
+Nov 29 18:10:08 RetrOrangePi systemd[1]: Started Load/Save RF Kill Switch Status of rfkill0.
+-- Subject: Unit systemd-rfkill@rfkill0.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-rfkill@rfkill0.service has finished starting up.
+-- 
+-- The start-up result is done.
+Nov 29 18:10:08 RetrOrangePi systemd[1]: Started Load/Save RF Kill Switch Status of rfkill1.
+-- Subject: Unit systemd-rfkill@rfkill1.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-rfkill@rfkill1.service has finished starting up.
+-- 
+-- The start-up result is done.
+Nov 29 18:10:08 RetrOrangePi systemd[1]: Started Load/Save Random Seed.
+-- Subject: Unit systemd-random-seed.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-random-seed.service has finished starting up.
+-- 
+-- The start-up result is done.
+Nov 29 18:10:08 RetrOrangePi systemd[1]: Starting Local File Systems.
+-- Subject: Unit local-fs.target has begun with start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit local-fs.target has begun starting up.
+Nov 29 18:10:08 RetrOrangePi systemd[1]: Reached target Local File Systems.
+-- Subject: Unit local-fs.target has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit local-fs.target has finished starting up.
+-- 
+-- The start-up result is done.
+Nov 29 18:10:08 RetrOrangePi systemd[1]: Starting Armbian ZRAM config...
+-- Subject: Unit armbian-zram-config.service has begun with start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit armbian-zram-config.service has begun starting up.
+Nov 29 18:10:08 RetrOrangePi systemd[1]: Starting Create Volatile Files and Directories...
+-- Subject: Unit systemd-tmpfiles-setup.service has begun with start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-tmpfiles-setup.service has begun starting up.
+Nov 29 18:10:08 RetrOrangePi systemd[1]: Starting LSB: Raise network interfaces....
+-- Subject: Unit networking.service has begun with start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit networking.service has begun starting up.
+Nov 29 18:10:08 RetrOrangePi systemd[1]: Starting Remote File Systems.
+-- Subject: Unit remote-fs.target has begun with start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit remote-fs.target has begun starting up.
+Nov 29 18:10:08 RetrOrangePi systemd[1]: Reached target Remote File Systems.
+-- Subject: Unit remote-fs.target has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit remote-fs.target has finished starting up.
+-- 
+-- The start-up result is done.
+Nov 29 18:10:08 RetrOrangePi systemd[1]: Starting Trigger Flushing of Journal to Persistent Storage...
+-- Subject: Unit systemd-journal-flush.service has begun with start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-journal-flush.service has begun starting up.
+Nov 29 18:10:08 RetrOrangePi systemd[1]: Starting LSB: Prepare console...
+-- Subject: Unit kbd.service has begun with start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit kbd.service has begun starting up.
+Nov 29 18:10:08 RetrOrangePi networking[309]: Configuring network interfaces...warning: couldn't open interfaces file "/etc/network/interfaces"
+Nov 29 18:10:08 RetrOrangePi networking[309]: warning: couldn't open interfaces file "/etc/network/interfaces"
+Nov 29 18:10:08 RetrOrangePi networking[309]: warning: couldn't open interfaces file "/etc/network/interfaces"
+Nov 29 18:10:08 RetrOrangePi systemd[1]: Started Create Volatile Files and Directories.
+-- Subject: Unit systemd-tmpfiles-setup.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-tmpfiles-setup.service has finished starting up.
+-- 
+-- The start-up result is done.
+Nov 29 18:10:08 RetrOrangePi kbd[327]: Setting console screen modes.
+Nov 29 18:10:08 RetrOrangePi kbd[327]: setterm: $TERM is not defined.
+Nov 29 18:10:08 RetrOrangePi armbian-zram-config[305]: Setting up swapspace version 1, size = 63348 KiB
+Nov 29 18:10:08 RetrOrangePi armbian-zram-config[305]: no label, UUID=3ed09df5-0bbb-44de-808e-02f7c5d05f49
+Nov 29 18:10:08 RetrOrangePi armbian-zram-config[305]: Setting up swapspace version 1, size = 63348 KiB
+Nov 29 18:10:08 RetrOrangePi armbian-zram-config[305]: no label, UUID=5f1171e1-039b-4a7c-9c59-1b37530e7413
+Nov 29 18:10:08 RetrOrangePi armbian-zram-config[305]: Setting up swapspace version 1, size = 63348 KiB
+Nov 29 18:10:08 RetrOrangePi armbian-zram-config[305]: no label, UUID=5c532198-35e9-4768-89d2-a3fd3f7289b3
+Nov 29 18:10:08 RetrOrangePi armbian-zram-config[305]: Setting up swapspace version 1, size = 63348 KiB
+Nov 29 18:10:08 RetrOrangePi armbian-zram-config[305]: no label, UUID=d6f1b2e3-cff4-47c7-9146-a95fc6ab1d4e
+Nov 29 18:10:08 RetrOrangePi armbian-zram-config[305]: /usr/lib/armbian/armbian-zram-config: line 51: /sys/block/zram0/comp_algorithm: No such file or directory
+Nov 29 18:10:08 RetrOrangePi armbian-zram-config[305]: /usr/lib/armbian/armbian-zram-config: line 51: /sys/block/zram0/comp_algorithm: No such file or directory
+Nov 29 18:10:08 RetrOrangePi armbian-zram-config[305]: /usr/lib/armbian/armbian-zram-config: line 51: /sys/block/zram0/comp_algorithm: No such file or directory
+Nov 29 18:10:08 RetrOrangePi armbian-zram-config[305]: /usr/lib/armbian/armbian-zram-config: line 51: /sys/block/zram0/comp_algorithm: No such file or directory
+Nov 29 18:10:08 RetrOrangePi armbian-zram-config[305]: /usr/lib/armbian/armbian-zram-config: line 51: /sys/block/zram0/comp_algorithm: No such file or directory
+Nov 29 18:10:09 RetrOrangePi armbian-zram-config[305]: mke2fs 1.42.12 (29-Aug-2014)
+Nov 29 18:10:09 RetrOrangePi armbian-zram-config[305]: Creating filesystem with 12800 4k blocks and 12800 inodes
+Nov 29 18:10:09 RetrOrangePi armbian-zram-config[305]: [41B blob data]
+Nov 29 18:10:09 RetrOrangePi armbian-zram-config[305]: [38B blob data]
+Nov 29 18:10:09 RetrOrangePi armbian-zram-config[305]: [75B blob data]
+Nov 29 18:10:09 RetrOrangePi armbian-zram-config[305]: /usr/lib/armbian/armbian-zram-config: line 62: /sys/block/zram0/comp_algorithm: No such file or directory
+Nov 29 18:10:09 RetrOrangePi systemd[1]: Started LSB: Prepare console.
+-- Subject: Unit kbd.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit kbd.service has finished starting up.
+-- 
+-- The start-up result is done.
+Nov 29 18:10:09 RetrOrangePi systemd[1]: Started Armbian ZRAM config.
+-- Subject: Unit armbian-zram-config.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit armbian-zram-config.service has finished starting up.
+-- 
+-- The start-up result is done.
+Nov 29 18:10:09 RetrOrangePi systemd-journal[205]: Runtime journal is using 4.0M (max allowed 9.9M, trying to leave 14.8M free of 94.5M available → current limit 9.9M).
+Nov 29 18:10:09 RetrOrangePi systemd[1]: Started Trigger Flushing of Journal to Persistent Storage.
+-- Subject: Unit systemd-journal-flush.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-journal-flush.service has finished starting up.
+-- 
+-- The start-up result is done.
+Nov 29 18:10:09 RetrOrangePi systemd[1]: Starting Armbian memory supported logging...
+-- Subject: Unit armbian-ramlog.service has begun with start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit armbian-ramlog.service has begun starting up.
+Nov 29 18:10:09 RetrOrangePi systemd[1]: Starting LSB: Set console font and keymap...
+-- Subject: Unit console-setup.service has begun with start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit console-setup.service has begun starting up.
+Nov 29 18:10:09 RetrOrangePi systemd[1]: Starting Update UTMP about System Boot/Shutdown...
+-- Subject: Unit systemd-update-utmp.service has begun with start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-update-utmp.service has begun starting up.
+Nov 29 18:10:09 RetrOrangePi armbian-ramlog[436]: Mounting /dev/zram0 as /var/log/
+Nov 29 18:10:09 RetrOrangePi armbian-ramlog[436]: Thu Nov 29 18:10:09 CET 2018: Loading logs from storage to zram
+Nov 29 18:10:09 RetrOrangePi armbian-ramlog[436]: sending incremental file list
+Nov 29 18:10:09 RetrOrangePi armbian-ramlog[436]: deleting lost+found/
+Nov 29 18:10:09 RetrOrangePi armbian-ramlog[436]: ./
+Nov 29 18:10:09 RetrOrangePi armbian-ramlog[436]: alternatives.log
+Nov 29 18:10:09 RetrOrangePi armbian-ramlog[436]: armbian-hardware-monitor.log
+Nov 29 18:10:09 RetrOrangePi systemd[1]: Started Update UTMP about System Boot/Shutdown.
+-- Subject: Unit systemd-update-utmp.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-update-utmp.service has finished starting up.
+-- 
+-- The start-up result is done.
+Nov 29 18:10:09 RetrOrangePi armbian-ramlog[436]: auth.log
+Nov 29 18:10:09 RetrOrangePi armbian-ramlog[436]: bootstrap.log
+Nov 29 18:10:09 RetrOrangePi networking[309]: warning: couldn't open interfaces file "/etc/network/interfaces"
+Nov 29 18:10:09 RetrOrangePi armbian-ramlog[436]: btmp
+Nov 29 18:10:09 RetrOrangePi networking[309]: done.
+Nov 29 18:10:09 RetrOrangePi armbian-ramlog[436]: daemon.log
+Nov 29 18:10:09 RetrOrangePi armbian-ramlog[436]: debug
+Nov 29 18:10:09 RetrOrangePi armbian-ramlog[436]: dmesg
+Nov 29 18:10:09 RetrOrangePi armbian-ramlog[436]: dpkg.log
+Nov 29 18:10:09 RetrOrangePi armbian-ramlog[436]: faillog
+Nov 29 18:10:09 RetrOrangePi armbian-ramlog[436]: fontconfig.log
+Nov 29 18:10:09 RetrOrangePi armbian-ramlog[436]: kern.log
+Nov 29 18:10:09 RetrOrangePi systemd[1]: Started LSB: Raise network interfaces..
+-- Subject: Unit networking.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit networking.service has finished starting up.
+-- 
+-- The start-up result is done.
+Nov 29 18:10:09 RetrOrangePi systemd[1]: Starting Network.
+-- Subject: Unit network.target has begun with start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit network.target has begun starting up.
+Nov 29 18:10:09 RetrOrangePi systemd[1]: Reached target Network.
+-- Subject: Unit network.target has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit network.target has finished starting up.
+-- 
+-- The start-up result is done.
+Nov 29 18:10:09 RetrOrangePi systemd[1]: Starting Network is Online.
+-- Subject: Unit network-online.target has begun with start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit network-online.target has begun starting up.
+Nov 29 18:10:09 RetrOrangePi systemd[1]: Reached target Network is Online.
+-- Subject: Unit network-online.target has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit network-online.target has finished starting up.
+-- 
+-- The start-up result is done.
+Nov 29 18:10:09 RetrOrangePi armbian-ramlog[436]: lastlog
+Nov 29 18:10:09 RetrOrangePi armbian-ramlog[436]: messages
+Nov 29 18:10:09 RetrOrangePi armbian-ramlog[436]: syslog
+Nov 29 18:10:09 RetrOrangePi armbian-ramlog[436]: user.log
+Nov 29 18:10:09 RetrOrangePi armbian-ramlog[436]: wtmp
+Nov 29 18:10:09 RetrOrangePi armbian-ramlog[436]: apt/
+Nov 29 18:10:09 RetrOrangePi armbian-ramlog[436]: apt/history.log
+Nov 29 18:10:09 RetrOrangePi armbian-ramlog[436]: apt/term.log
+Nov 29 18:10:09 RetrOrangePi armbian-ramlog[436]: cups/
+Nov 29 18:10:09 RetrOrangePi armbian-ramlog[436]: cups/access_log
+Nov 29 18:10:09 RetrOrangePi armbian-ramlog[436]: cups/error_log
+Nov 29 18:10:09 RetrOrangePi armbian-ramlog[436]: cups/page_log
+Nov 29 18:10:09 RetrOrangePi armbian-ramlog[436]: dirmngr/
+Nov 29 18:10:09 RetrOrangePi armbian-ramlog[436]: dirmngr/dirmngr.log
+Nov 29 18:10:09 RetrOrangePi armbian-ramlog[436]: fsck/
+Nov 29 18:10:09 RetrOrangePi armbian-ramlog[436]: fsck/checkfs
+Nov 29 18:10:09 RetrOrangePi armbian-ramlog[436]: fsck/checkroot
+Nov 29 18:10:09 RetrOrangePi armbian-ramlog[436]: ntpstats/
+Nov 29 18:10:09 RetrOrangePi armbian-ramlog[436]: samba/
+Nov 29 18:10:09 RetrOrangePi armbian-ramlog[436]: samba/log.
+Nov 29 18:10:09 RetrOrangePi armbian-ramlog[436]: samba/log.192.168.0.187
+Nov 29 18:10:09 RetrOrangePi armbian-ramlog[436]: samba/log.192.168.0.80
+Nov 29 18:10:09 RetrOrangePi armbian-ramlog[436]: samba/log.csucsug__p
+Nov 29 18:10:09 RetrOrangePi armbian-ramlog[436]: samba/log.desktop-q6h6nkf
+Nov 29 18:10:09 RetrOrangePi armbian-ramlog[436]: samba/log.nmbd
+Nov 29 18:10:09 RetrOrangePi armbian-ramlog[436]: samba/log.smbd
+Nov 29 18:10:09 RetrOrangePi armbian-ramlog[436]: samba/cores/
+Nov 29 18:10:09 RetrOrangePi armbian-ramlog[436]: samba/cores/nmbd/
+Nov 29 18:10:09 RetrOrangePi armbian-ramlog[436]: samba/cores/smbd/
+Nov 29 18:10:09 RetrOrangePi armbian-ramlog[436]: speech-dispatcher/
+Nov 29 18:10:09 RetrOrangePi armbian-ramlog[436]: sysstat/
+Nov 29 18:10:10 RetrOrangePi armbian-ramlog[436]: unattended-upgrades/
+Nov 29 18:10:10 RetrOrangePi armbian-ramlog[436]: unattended-upgrades/unattended-upgrades-shutdown.log
+Nov 29 18:10:10 RetrOrangePi armbian-ramlog[436]: sent 2,336,808 bytes  received 717 bytes  4,675,050.00 bytes/sec
+Nov 29 18:10:10 RetrOrangePi armbian-ramlog[436]: total size is 2,333,683  speedup is 1.00
+Nov 29 18:10:10 RetrOrangePi console-setup[437]: Setting up console font and keymap...done.
+Nov 29 18:10:10 RetrOrangePi systemd[1]: Started LSB: Set console font and keymap.
+-- Subject: Unit console-setup.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit console-setup.service has finished starting up.
+-- 
+-- The start-up result is done.
+Nov 29 18:10:11 RetrOrangePi systemd[1]: Started Armbian memory supported logging.
+-- Subject: Unit armbian-ramlog.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit armbian-ramlog.service has finished starting up.
+-- 
+-- The start-up result is done.
+Nov 29 18:10:11 RetrOrangePi systemd[1]: Starting System Initialization.
+-- Subject: Unit sysinit.target has begun with start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit sysinit.target has begun starting up.
+Nov 29 18:10:11 RetrOrangePi systemd[1]: Reached target System Initialization.
+-- Subject: Unit sysinit.target has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit sysinit.target has finished starting up.
+-- 
+-- The start-up result is done.
+Nov 29 18:10:11 RetrOrangePi systemd[1]: Starting Daily Cleanup of Temporary Directories.
+-- Subject: Unit systemd-tmpfiles-clean.timer has begun with start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-tmpfiles-clean.timer has begun starting up.
+Nov 29 18:10:11 RetrOrangePi systemd[1]: Started Daily Cleanup of Temporary Directories.
+-- Subject: Unit systemd-tmpfiles-clean.timer has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-tmpfiles-clean.timer has finished starting up.
+-- 
+-- The start-up result is done.
+Nov 29 18:10:11 RetrOrangePi systemd[1]: Starting Timers.
+-- Subject: Unit timers.target has begun with start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit timers.target has begun starting up.
+Nov 29 18:10:11 RetrOrangePi systemd[1]: Reached target Timers.
+-- Subject: Unit timers.target has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit timers.target has finished starting up.
+-- 
+-- The start-up result is done.
+Nov 29 18:10:11 RetrOrangePi systemd[1]: Starting Armbian hardware optimization...
+-- Subject: Unit armbian-hardware-optimize.service has begun with start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit armbian-hardware-optimize.service has begun starting up.
+Nov 29 18:10:11 RetrOrangePi systemd[1]: Starting Armbian hardware monitoring...
+-- Subject: Unit armbian-hardware-monitor.service has begun with start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit armbian-hardware-monitor.service has begun starting up.
+Nov 29 18:10:11 RetrOrangePi systemd[1]: Started Manage Sound Card State (restore and store).
+-- Subject: Unit alsa-state.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit alsa-state.service has finished starting up.
+-- 
+-- The start-up result is done.
+Nov 29 18:10:11 RetrOrangePi systemd[1]: Starting Restore Sound Card State...
+-- Subject: Unit alsa-restore.service has begun with start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit alsa-restore.service has begun starting up.
+Nov 29 18:10:11 RetrOrangePi systemd[1]: Starting ACPID Listen Socket.
+-- Subject: Unit acpid.socket has begun with start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit acpid.socket has begun starting up.
+Nov 29 18:10:11 RetrOrangePi systemd[1]: Listening on ACPID Listen Socket.
+-- Subject: Unit acpid.socket has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit acpid.socket has finished starting up.
+-- 
+-- The start-up result is done.
+Nov 29 18:10:11 RetrOrangePi systemd[1]: Starting ACPI Events Check.
+-- Subject: Unit acpid.path has begun with start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit acpid.path has begun starting up.
+Nov 29 18:10:11 RetrOrangePi armbian-hardware-optimization[547]: [ ok ] Setting noop I/O scheduler for mmcblk0
+Nov 29 18:10:11 RetrOrangePi systemd[1]: Started ACPI Events Check.
+-- Subject: Unit acpid.path has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit acpid.path has finished starting up.
+-- 
+-- The start-up result is done.
+Nov 29 18:10:11 RetrOrangePi systemd[1]: Started Manage Sound Card State (restore and store).
+-- Subject: Unit alsa-state.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit alsa-state.service has finished starting up.
+-- 
+-- The start-up result is done.
+Nov 29 18:10:11 RetrOrangePi systemd[1]: Starting CUPS Printer Service Spool.
+-- Subject: Unit cups.path has begun with start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit cups.path has begun starting up.
+Nov 29 18:10:11 RetrOrangePi systemd[1]: Started CUPS Printer Service Spool.
+-- Subject: Unit cups.path has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit cups.path has finished starting up.
+-- 
+-- The start-up result is done.
+Nov 29 18:10:11 RetrOrangePi systemd[1]: Starting Paths.
+-- Subject: Unit paths.target has begun with start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit paths.target has begun starting up.
+Nov 29 18:10:11 RetrOrangePi systemd[1]: Reached target Paths.
+-- Subject: Unit paths.target has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit paths.target has finished starting up.
+-- 
+-- The start-up result is done.
+Nov 29 18:10:11 RetrOrangePi systemd[1]: Starting D-Bus System Message Bus Socket.
+-- Subject: Unit dbus.socket has begun with start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit dbus.socket has begun starting up.
+Nov 29 18:10:11 RetrOrangePi systemd[1]: Listening on D-Bus System Message Bus Socket.
+-- Subject: Unit dbus.socket has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit dbus.socket has finished starting up.
+-- 
+-- The start-up result is done.
+Nov 29 18:10:11 RetrOrangePi systemd[1]: Starting CUPS Printing Service Sockets.
+-- Subject: Unit cups.socket has begun with start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit cups.socket has begun starting up.
+Nov 29 18:10:11 RetrOrangePi systemd[1]: Listening on CUPS Printing Service Sockets.
+-- Subject: Unit cups.socket has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit cups.socket has finished starting up.
+-- 
+-- The start-up result is done.
+Nov 29 18:10:11 RetrOrangePi systemd[1]: Starting Sockets.
+-- Subject: Unit sockets.target has begun with start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit sockets.target has begun starting up.
+Nov 29 18:10:11 RetrOrangePi systemd[1]: Reached target Sockets.
+-- Subject: Unit sockets.target has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit sockets.target has finished starting up.
+-- 
+-- The start-up result is done.
+Nov 29 18:10:11 RetrOrangePi systemd[1]: Started Armbian hardware optimization.
+-- Subject: Unit armbian-hardware-optimize.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit armbian-hardware-optimize.service has finished starting up.
+-- 
+-- The start-up result is done.
+Nov 29 18:10:11 RetrOrangePi systemd[1]: Started Restore Sound Card State.
+-- Subject: Unit alsa-restore.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit alsa-restore.service has finished starting up.
+-- 
+-- The start-up result is done.
+Nov 29 18:10:11 RetrOrangePi armbian-hardware-optimization[547]: sed: no input files
+Nov 29 18:10:11 RetrOrangePi armbian-hardware-optimization[547]: /usr/lib/armbian/armbian-hardware-optimization: line 223: /proc/irq/$(awk -F":" "/${USB1}/ {print \$1}" </proc/interrupts | sed 's/\ //g')/smp_affinity: No such file or directory
+Nov 29 18:10:11 RetrOrangePi armbian-hardware-optimization[547]: /usr/lib/armbian/armbian-hardware-optimization: line 224: /proc/irq/$(awk -F":" "/${USB2}/ {print \$1}" </proc/interrupts | sed 's/\ //g')/smp_affinity: No such file or directory
+Nov 29 18:10:15 RetrOrangePi systemd[1]: Started Armbian hardware monitoring.
+-- Subject: Unit armbian-hardware-monitor.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit armbian-hardware-monitor.service has finished starting up.
+-- 
+-- The start-up result is done.
+Nov 29 18:10:15 RetrOrangePi systemd[1]: Starting Basic System.
+-- Subject: Unit basic.target has begun with start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit basic.target has begun starting up.
+Nov 29 18:10:15 RetrOrangePi systemd[1]: Reached target Basic System.
+-- Subject: Unit basic.target has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit basic.target has finished starting up.
+-- 
+-- The start-up result is done.
+Nov 29 18:10:15 RetrOrangePi systemd[1]: Starting Entropy daemon using the HAVEGE algorithm...
+-- Subject: Unit haveged.service has begun with start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit haveged.service has begun starting up.
+Nov 29 18:10:15 RetrOrangePi systemd[1]: Started Entropy daemon using the HAVEGE algorithm.
+-- Subject: Unit haveged.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit haveged.service has finished starting up.
+-- 
+-- The start-up result is done.
+Nov 29 18:10:15 RetrOrangePi systemd[1]: Starting OpenBSD Secure Shell server...
+-- Subject: Unit ssh.service has begun with start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit ssh.service has begun starting up.
+Nov 29 18:10:15 RetrOrangePi systemd[1]: Started Armbian first run optional user configuration.
+-- Subject: Unit armbian-firstrun-config.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit armbian-firstrun-config.service has finished starting up.
+-- 
+-- The start-up result is done.
+Nov 29 18:10:15 RetrOrangePi systemd[1]: Starting System Logging Service...
+-- Subject: Unit rsyslog.service has begun with start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit rsyslog.service has begun starting up.
+Nov 29 18:10:15 RetrOrangePi systemd[1]: Starting Network Manager...
+-- Subject: Unit NetworkManager.service has begun with start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit NetworkManager.service has begun starting up.
+Nov 29 18:10:15 RetrOrangePi systemd[1]: Starting OpenVPN service...
+-- Subject: Unit openvpn.service has begun with start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit openvpn.service has begun starting up.
+Nov 29 18:10:15 RetrOrangePi systemd[1]: Starting Regular background program processing daemon...
+-- Subject: Unit cron.service has begun with start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit cron.service has begun starting up.
+Nov 29 18:10:15 RetrOrangePi systemd[1]: Started Regular background program processing daemon.
+-- Subject: Unit cron.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit cron.service has finished starting up.
+-- 
+-- The start-up result is done.
+Nov 29 18:10:15 RetrOrangePi systemd[1]: Starting /etc/rc.local Compatibility...
+-- Subject: Unit rc-local.service has begun with start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit rc-local.service has begun starting up.
+Nov 29 18:10:15 RetrOrangePi systemd[1]: Starting Login Service...
+-- Subject: Unit systemd-logind.service has begun with start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-logind.service has begun starting up.
+Nov 29 18:10:15 RetrOrangePi cron[778]: (CRON) INFO (pidfile fd = 3)
+Nov 29 18:10:15 RetrOrangePi systemd[1]: Starting ACPI event daemon...
+-- Subject: Unit acpid.service has begun with start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit acpid.service has begun starting up.
+Nov 29 18:10:15 RetrOrangePi cron[778]: (CRON) INFO (Running @reboot jobs)
+Nov 29 18:10:16 RetrOrangePi systemd[1]: Started ACPI event daemon.
+-- Subject: Unit acpid.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit acpid.service has finished starting up.
+-- 
+-- The start-up result is done.
+Nov 29 18:10:16 RetrOrangePi systemd[1]: Starting D-Bus System Message Bus...
+-- Subject: Unit dbus.service has begun with start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit dbus.service has begun starting up.
+Nov 29 18:10:16 RetrOrangePi systemd[1]: Started D-Bus System Message Bus.
+-- Subject: Unit dbus.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit dbus.service has finished starting up.
+-- 
+-- The start-up result is done.
+Nov 29 18:10:16 RetrOrangePi sudo[801]: root : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/sbin/ifconfig eth0 down
+Nov 29 18:10:16 RetrOrangePi sudo[801]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 29 18:10:16 RetrOrangePi CRON[799]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 29 18:10:16 RetrOrangePi CRON[810]: (root) CMD (/usr/lib/armbian/armbian-apt-updates)
+Nov 29 18:10:16 RetrOrangePi sudo[801]: pam_unix(sudo:session): session closed for user root
+Nov 29 18:10:16 RetrOrangePi sudo[818]: root : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/home/pi/BB-CP/bbcp
+Nov 29 18:10:16 RetrOrangePi sudo[818]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 29 18:10:16 RetrOrangePi acpid[800]: starting up with netlink and the input layer
+Nov 29 18:10:16 RetrOrangePi acpid[800]: 1 rule loaded
+Nov 29 18:10:16 RetrOrangePi acpid[800]: waiting for events: event logging is off
+Nov 29 18:10:16 RetrOrangePi NetworkManager[772]: <info> NetworkManager (version 0.9.10.0) is starting...
+Nov 29 18:10:16 RetrOrangePi NetworkManager[772]: <info> Read config: /etc/NetworkManager/NetworkManager.conf
+Nov 29 18:10:16 RetrOrangePi NetworkManager[772]: <info> WEXT support is enabled
+Nov 29 18:10:16 RetrOrangePi dbus[802]: [system] Successfully activated service 'org.freedesktop.systemd1'
+Nov 29 18:10:16 RetrOrangePi NetworkManager[772]: <info> VPN: loaded org.freedesktop.NetworkManager.openvpn
+Nov 29 18:10:16 RetrOrangePi NetworkManager[772]: <info> DNS: not managing /etc/resolv.conf
+Nov 29 18:10:16 RetrOrangePi dbus[802]: [system] Activating via systemd: service name='org.freedesktop.PolicyKit1' unit='polkitd.service'
+Nov 29 18:10:16 RetrOrangePi systemd[1]: Starting LSB: start Samba NetBIOS nameserver (nmbd)...
+-- Subject: Unit nmbd.service has begun with start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit nmbd.service has begun starting up.
+Nov 29 18:10:16 RetrOrangePi systemd[1]: Starting LSB: Advanced IEEE 802.11 management daemon...
+-- Subject: Unit hostapd.service has begun with start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit hostapd.service has begun starting up.
+Nov 29 18:10:16 RetrOrangePi systemd[1]: Starting LSB: Load kernel modules needed to enable cpufreq scaling...
+-- Subject: Unit loadcpufreq.service has begun with start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit loadcpufreq.service has begun starting up.
+Nov 29 18:10:16 RetrOrangePi systemd[1]: Starting LSB: Patch firmware for ap6212 adapter...
+-- Subject: Unit ap6212-bluetooth.service has begun with start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit ap6212-bluetooth.service has begun starting up.
+Nov 29 18:10:16 RetrOrangePi systemd[1]: Starting LSB: Start NTP daemon...
+-- Subject: Unit ntp.service has begun with start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit ntp.service has begun starting up.
+Nov 29 18:10:16 RetrOrangePi loadcpufreq[836]: Loading cpufreq kernel modules...done (none).
+Nov 29 18:10:16 RetrOrangePi systemd[1]: Starting LSB: Speech Dispatcher...
+-- Subject: Unit speech-dispatcher.service has begun with start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit speech-dispatcher.service has begun starting up.
+Nov 29 18:10:16 RetrOrangePi systemd[1]: Starting LSB: Start/stop sysstat's sadc...
+-- Subject: Unit sysstat.service has begun with start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit sysstat.service has begun starting up.
+Nov 29 18:10:17 RetrOrangePi speech-dispatcher[873]: speech-dispatcher disabled; edit /etc/default/speech-dispatcher.
+Nov 29 18:10:17 RetrOrangePi ntpd[884]: ntpd 4.2.6p5@1.2349-o Fri Jul 22 17:59:22 UTC 2016 (1)
+Nov 29 18:10:17 RetrOrangePi ntpd[889]: proto: precision = 0.583 usec
+Nov 29 18:10:17 RetrOrangePi ntpd[889]: Listen and drop on 0 v4wildcard 0.0.0.0 UDP 123
+Nov 29 18:10:17 RetrOrangePi ntpd[889]: Listen and drop on 1 v6wildcard :: UDP 123
+Nov 29 18:10:17 RetrOrangePi ntpd[889]: Listen normally on 2 lo 127.0.0.1 UDP 123
+Nov 29 18:10:17 RetrOrangePi ntpd[889]: Listen normally on 3 lo ::1 UDP 123
+Nov 29 18:10:17 RetrOrangePi ntpd[889]: peers refreshed
+Nov 29 18:10:17 RetrOrangePi ntpd[889]: Listening on routing socket on fd #20 for interface updates
+Nov 29 18:10:17 RetrOrangePi ntpd[889]: Deferring DNS for 0.debian.pool.ntp.org 1
+Nov 29 18:10:17 RetrOrangePi ntpd[889]: Deferring DNS for 1.debian.pool.ntp.org 1
+Nov 29 18:10:17 RetrOrangePi ntpd[889]: Deferring DNS for 2.debian.pool.ntp.org 1
+Nov 29 18:10:17 RetrOrangePi ntpd[889]: Deferring DNS for 3.debian.pool.ntp.org 1
+Nov 29 18:10:17 RetrOrangePi ntpd[891]: signal_no_reset: signal 17 had flags 4000000
+Nov 29 18:10:17 RetrOrangePi systemd[1]: Starting LSB: start DirMngr daemon...
+-- Subject: Unit dirmngr.service has begun with start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit dirmngr.service has begun starting up.
+Nov 29 18:10:17 RetrOrangePi systemd[1]: Starting LSB: start Samba daemons for the AD DC...
+-- Subject: Unit samba-ad-dc.service has begun with start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit samba-ad-dc.service has begun starting up.
+Nov 29 18:10:17 RetrOrangePi systemd[1]: Started getty on tty2-tty6 if dbus and logind are not available.
+-- Subject: Unit getty-static.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit getty-static.service has finished starting up.
+-- 
+-- The start-up result is done.
+Nov 29 18:10:17 RetrOrangePi systemd[1]: Starting Permit User Sessions...
+-- Subject: Unit systemd-user-sessions.service has begun with start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-user-sessions.service has begun starting up.
+Nov 29 18:10:17 RetrOrangePi systemd[1]: Started System Logging Service.
+-- Subject: Unit rsyslog.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit rsyslog.service has finished starting up.
+-- 
+-- The start-up result is done.
+Nov 29 18:10:17 RetrOrangePi ntp[860]: Starting NTP server: ntpd.
+Nov 29 18:10:17 RetrOrangePi haveged[763]: haveged: ver: 1.9.1; arch: generic; vend: ; build: (gcc 4.8.2 CTV); collect: 128K
+Nov 29 18:10:17 RetrOrangePi haveged[763]: haveged: cpu: (VC); data: 16K (D); inst: 16K (D); idx: 9/40; sz: 15780/68380
+Nov 29 18:10:17 RetrOrangePi haveged[763]: haveged: tot tests(BA8): A:1/1 B:1/1 continuous tests(B):  last entropy estimate 7.99981
+Nov 29 18:10:17 RetrOrangePi haveged[763]: haveged: fills: 0, generated: 0
+Nov 29 18:10:17 RetrOrangePi dirmngr[887]: Starting DirMngr: dirmngr.
+Nov 29 18:10:17 RetrOrangePi systemd[1]: Started OpenBSD Secure Shell server.
+-- Subject: Unit ssh.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit ssh.service has finished starting up.
+-- 
+-- The start-up result is done.
+Nov 29 18:10:17 RetrOrangePi systemd[1]: Started OpenVPN service.
+-- Subject: Unit openvpn.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit openvpn.service has finished starting up.
+-- 
+-- The start-up result is done.
+Nov 29 18:10:17 RetrOrangePi systemd[1]: Started /etc/rc.local Compatibility.
+-- Subject: Unit rc-local.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit rc-local.service has finished starting up.
+-- 
+-- The start-up result is done.
+Nov 29 18:10:17 RetrOrangePi sshd[903]: Server listening on 0.0.0.0 port 22.
+Nov 29 18:10:17 RetrOrangePi sshd[903]: Server listening on :: port 22.
+Nov 29 18:10:17 RetrOrangePi systemd[1]: Started LSB: Advanced IEEE 802.11 management daemon.
+-- Subject: Unit hostapd.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit hostapd.service has finished starting up.
+-- 
+-- The start-up result is done.
+Nov 29 18:10:17 RetrOrangePi systemd[1]: Started LSB: Load kernel modules needed to enable cpufreq scaling.
+-- Subject: Unit loadcpufreq.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit loadcpufreq.service has finished starting up.
+-- 
+-- The start-up result is done.
+Nov 29 18:10:17 RetrOrangePi systemd[1]: Started LSB: Start NTP daemon.
+-- Subject: Unit ntp.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit ntp.service has finished starting up.
+-- 
+-- The start-up result is done.
+Nov 29 18:10:17 RetrOrangePi systemd[1]: Started LSB: Speech Dispatcher.
+-- Subject: Unit speech-dispatcher.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit speech-dispatcher.service has finished starting up.
+-- 
+-- The start-up result is done.
+Nov 29 18:10:17 RetrOrangePi systemd[1]: Started LSB: Start/stop sysstat's sadc.
+-- Subject: Unit sysstat.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit sysstat.service has finished starting up.
+-- 
+-- The start-up result is done.
+Nov 29 18:10:17 RetrOrangePi systemd[1]: Started LSB: start DirMngr daemon.
+-- Subject: Unit dirmngr.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit dirmngr.service has finished starting up.
+-- 
+-- The start-up result is done.
+Nov 29 18:10:17 RetrOrangePi systemd[1]: Started Permit User Sessions.
+-- Subject: Unit systemd-user-sessions.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-user-sessions.service has finished starting up.
+-- 
+-- The start-up result is done.
+Nov 29 18:10:18 RetrOrangePi systemd-logind[798]: New seat seat0.
+-- Subject: A new seat seat0 is now available
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- Documentation: http://www.freedesktop.org/wiki/Software/systemd/multiseat
+-- 
+-- A new seat seat0 has been configured and is now available.
+Nov 29 18:10:18 RetrOrangePi systemd[1]: Started Login Service.
+-- Subject: Unit systemd-logind.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-logind.service has finished starting up.
+-- 
+-- The start-up result is done.
+Nov 29 18:10:18 RetrOrangePi systemd[1]: Starting Authenticate and Authorize Users to Run Privileged Tasks...
+-- Subject: Unit polkitd.service has begun with start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit polkitd.service has begun starting up.
+Nov 29 18:10:18 RetrOrangePi systemd[1]: Starting LSB: set CPUFreq kernel parameters...
+-- Subject: Unit cpufrequtils.service has begun with start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit cpufrequtils.service has begun starting up.
+Nov 29 18:10:18 RetrOrangePi systemd[1]: Starting Serial Getty on ttyS0...
+-- Subject: Unit serial-getty@ttyS0.service has begun with start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit serial-getty@ttyS0.service has begun starting up.
+Nov 29 18:10:18 RetrOrangePi systemd[1]: Started Serial Getty on ttyS0.
+-- Subject: Unit serial-getty@ttyS0.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit serial-getty@ttyS0.service has finished starting up.
+-- 
+-- The start-up result is done.
+Nov 29 18:10:18 RetrOrangePi systemd[1]: Starting Getty on tty1...
+-- Subject: Unit getty@tty1.service has begun with start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit getty@tty1.service has begun starting up.
+Nov 29 18:10:18 RetrOrangePi systemd[1]: Started Getty on tty1.
+-- Subject: Unit getty@tty1.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit getty@tty1.service has finished starting up.
+-- 
+-- The start-up result is done.
+Nov 29 18:10:18 RetrOrangePi systemd[1]: Starting Login Prompts.
+-- Subject: Unit getty.target has begun with start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit getty.target has begun starting up.
+Nov 29 18:10:18 RetrOrangePi systemd[1]: Reached target Login Prompts.
+-- Subject: Unit getty.target has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit getty.target has finished starting up.
+-- 
+-- The start-up result is done.
+Nov 29 18:10:18 RetrOrangePi cpufrequtils[913]: CPUFreq Utilities: Setting interactive CPUFreq governor...CPU0...CPU1...CPU2...CPU3...done.
+Nov 29 18:10:18 RetrOrangePi polkitd[912]: started daemon version 0.105 using authority implementation `local' version `0.105'
+Nov 29 18:10:18 RetrOrangePi dbus[802]: [system] Successfully activated service 'org.freedesktop.PolicyKit1'
+Nov 29 18:10:18 RetrOrangePi systemd[1]: Started LSB: set CPUFreq kernel parameters.
+-- Subject: Unit cpufrequtils.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit cpufrequtils.service has finished starting up.
+-- 
+-- The start-up result is done.
+Nov 29 18:10:18 RetrOrangePi systemd[1]: Started Authenticate and Authorize Users to Run Privileged Tasks.
+-- Subject: Unit polkitd.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit polkitd.service has finished starting up.
+-- 
+-- The start-up result is done.
+Nov 29 18:10:18 RetrOrangePi systemd[1]: Starting LSB: Set sysfs variables from /etc/sysfs.conf...
+-- Subject: Unit sysfsutils.service has begun with start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit sysfsutils.service has begun starting up.
+Nov 29 18:10:18 RetrOrangePi NetworkManager[772]: <info> init!
+Nov 29 18:10:18 RetrOrangePi NetworkManager[772]: <info> update_system_hostname
+Nov 29 18:10:18 RetrOrangePi NetworkManager[772]: <warn> interfaces file /etc/network/interfaces doesn't exist
+Nov 29 18:10:18 RetrOrangePi NetworkManager[772]: <info> management mode: managed
+Nov 29 18:10:18 RetrOrangePi NetworkManager[772]: <info> devices added (path: /sys/devices/platform/gmac0/net/eth0, iface: eth0)
+Nov 29 18:10:18 RetrOrangePi NetworkManager[772]: <info> device added (path: /sys/devices/platform/gmac0/net/eth0, iface: eth0): no ifupdown configuration found.
+Nov 29 18:10:18 RetrOrangePi NetworkManager[772]: <info> devices added (path: /sys/devices/platform/sunxi-mmc.1/mmc_host/mmc1/mmc1:0001/mmc1:0001:2/net/wlan3, iface: wlan3)
+Nov 29 18:10:18 RetrOrangePi NetworkManager[772]: <info> device added (path: /sys/devices/platform/sunxi-mmc.1/mmc_host/mmc1/mmc1:0001/mmc1:0001:2/net/wlan3, iface: wlan3): no ifupdown configuration found.
+Nov 29 18:10:18 RetrOrangePi NetworkManager[772]: <info> devices added (path: /sys/devices/virtual/net/lo, iface: lo)
+Nov 29 18:10:18 RetrOrangePi NetworkManager[772]: <info> device added (path: /sys/devices/virtual/net/lo, iface: lo): no ifupdown configuration found.
+Nov 29 18:10:18 RetrOrangePi NetworkManager[772]: <info> end _init.
+Nov 29 18:10:18 RetrOrangePi NetworkManager[772]: <info> Loaded plugin ifupdown: (C) 2008 Canonical Ltd.  To report bugs please use the NetworkManager mailing list.
+Nov 29 18:10:18 RetrOrangePi NetworkManager[772]: <info> Loaded plugin keyfile: (c) 2007 - 2013 Red Hat, Inc.  To report bugs please use the NetworkManager mailing list.
+Nov 29 18:10:18 RetrOrangePi NetworkManager[772]: <info> (7800640) ... get_connections.
+Nov 29 18:10:18 RetrOrangePi NetworkManager[772]: <info> (7800640) connections count: 0
+Nov 29 18:10:18 RetrOrangePi sysfsutils[929]: Setting sysfs variables....
+Nov 29 18:10:18 RetrOrangePi systemd[1]: Started LSB: Set sysfs variables from /etc/sysfs.conf.
+-- Subject: Unit sysfsutils.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit sysfsutils.service has finished starting up.
+-- 
+-- The start-up result is done.
+Nov 29 18:10:18 RetrOrangePi NetworkManager[772]: <info> new connection /etc/NetworkManager/system-connections/UPC5F4831F_2G
+Nov 29 18:10:18 RetrOrangePi NetworkManager[772]: <info> monitoring kernel firmware directory '/lib/firmware'.
+Nov 29 18:10:18 RetrOrangePi NetworkManager[772]: <info> monitoring ifupdown state file '/run/network/ifstate'.
+Nov 29 18:10:18 RetrOrangePi NetworkManager[772]: <info> rfkill0: found WiFi radio killswitch (at /sys/devices/platform/sunxi-mmc.1/mmc_host/mmc1/mmc1:0001/mmc1:0001:2/ieee80211/phy0/rfkill0) (driver bcmsdh_sdmmc)
+Nov 29 18:10:18 RetrOrangePi NetworkManager[772]: <info> rfkill1: found WiFi radio killswitch (at /sys/devices/platform/sunxi-mmc.1/mmc_host/mmc1/mmc1:0001/mmc1:0001:2/rfkill/rfkill1) (driver bcmsdh_sdmmc)
+Nov 29 18:10:18 RetrOrangePi NetworkManager[772]: <info> WiFi hardware radio set enabled
+Nov 29 18:10:18 RetrOrangePi NetworkManager[772]: <info> WWAN hardware radio set enabled
+Nov 29 18:10:18 RetrOrangePi NetworkManager[772]: <info> Loaded device plugin: /usr/lib/arm-linux-gnueabihf/NetworkManager/libnm-device-plugin-adsl.so
+Nov 29 18:10:18 RetrOrangePi NetworkManager[772]: <info> Loaded device plugin: /usr/lib/arm-linux-gnueabihf/NetworkManager/libnm-device-plugin-wwan.so
+Nov 29 18:10:18 RetrOrangePi NetworkManager[772]: <info> Loaded device plugin: /usr/lib/arm-linux-gnueabihf/NetworkManager/libnm-device-plugin-bluetooth.so
+Nov 29 18:10:18 RetrOrangePi NetworkManager[772]: <info> Loaded device plugin: /usr/lib/arm-linux-gnueabihf/NetworkManager/libnm-device-plugin-wifi.so
+Nov 29 18:10:18 RetrOrangePi NetworkManager[772]: <info> WiFi enabled by radio killswitch; enabled by state file
+Nov 29 18:10:18 RetrOrangePi systemd[1]: Started Network Manager.
+-- Subject: Unit NetworkManager.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit NetworkManager.service has finished starting up.
+-- 
+-- The start-up result is done.
+Nov 29 18:10:18 RetrOrangePi NetworkManager[772]: <info> WWAN enabled by radio killswitch; enabled by state file
+Nov 29 18:10:18 RetrOrangePi NetworkManager[772]: <info> WiMAX enabled by radio killswitch; enabled by state file
+Nov 29 18:10:18 RetrOrangePi NetworkManager[772]: <info> Networking is enabled by state file
+Nov 29 18:10:18 RetrOrangePi NetworkManager[772]: <info> (lo): link connected
+Nov 29 18:10:18 RetrOrangePi NetworkManager[772]: <info> (lo): carrier is ON
+Nov 29 18:10:18 RetrOrangePi NetworkManager[772]: <info> (lo): new Generic device (driver: 'unknown' ifindex: 1)
+Nov 29 18:10:18 RetrOrangePi NetworkManager[772]: <info> (lo): exported as /org/freedesktop/NetworkManager/Devices/0
+Nov 29 18:10:18 RetrOrangePi NetworkManager[772]: <info> (eth0): driver 'gmac0' does not support carrier detection.
+Nov 29 18:10:18 RetrOrangePi NetworkManager[772]: <info> (eth0): new Ethernet device (driver: 'gmac0' ifindex: 2)
+Nov 29 18:10:18 RetrOrangePi NetworkManager[772]: <info> (eth0): exported as /org/freedesktop/NetworkManager/Devices/1
+Nov 29 18:10:18 RetrOrangePi NetworkManager[772]: <info> (wlan3): using nl80211 for WiFi device control
+Nov 29 18:10:18 RetrOrangePi NetworkManager[772]: <info> (wlan3): driver supports Access Point (AP) mode
+Nov 29 18:10:18 RetrOrangePi NetworkManager[772]: <info> (wlan3): new 802.11 WiFi device (driver: 'bcmsdh_sdmmc' ifindex: 3)
+Nov 29 18:10:18 RetrOrangePi NetworkManager[772]: <info> (wlan3): exported as /org/freedesktop/NetworkManager/Devices/2
+Nov 29 18:10:18 RetrOrangePi NetworkManager[772]: <info> (wlan3): device state change: unmanaged -> unavailable (reason 'managed') [10 20 2]
+Nov 29 18:10:18 RetrOrangePi NetworkManager[772]: <info> (wlan3): preparing device
+Nov 29 18:10:18 RetrOrangePi dbus[802]: [system] Activating via systemd: service name='fi.w1.wpa_supplicant1' unit='wpa_supplicant.service'
+Nov 29 18:10:18 RetrOrangePi systemd[1]: Starting WPA supplicant...
+-- Subject: Unit wpa_supplicant.service has begun with start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit wpa_supplicant.service has begun starting up.
+Nov 29 18:10:19 RetrOrangePi ntpd_intres[891]: host name not found: 0.debian.pool.ntp.org
+Nov 29 18:10:19 RetrOrangePi ntpd_intres[891]: host name not found: 1.debian.pool.ntp.org
+Nov 29 18:10:19 RetrOrangePi ntpd_intres[891]: host name not found: 2.debian.pool.ntp.org
+Nov 29 18:10:19 RetrOrangePi ntpd_intres[891]: host name not found: 3.debian.pool.ntp.org
+Nov 29 18:10:19 RetrOrangePi dbus[802]: [system] Successfully activated service 'fi.w1.wpa_supplicant1'
+Nov 29 18:10:19 RetrOrangePi NetworkManager[772]: <info> wpa_supplicant started
+Nov 29 18:10:19 RetrOrangePi wpa_supplicant[938]: Successfully initialized wpa_supplicant
+Nov 29 18:10:19 RetrOrangePi systemd[1]: Started WPA supplicant.
+-- Subject: Unit wpa_supplicant.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit wpa_supplicant.service has finished starting up.
+-- 
+-- The start-up result is done.
+Nov 29 18:10:19 RetrOrangePi NetworkManager[772]: <info> (wlan3) supports 5 scan SSIDs
+Nov 29 18:10:19 RetrOrangePi NetworkManager[772]: <info> (wlan3): supplicant interface state: starting -> ready
+Nov 29 18:10:19 RetrOrangePi NetworkManager[772]: <info> (wlan3): device state change: unavailable -> disconnected (reason 'supplicant-available') [20 30 42]
+Nov 29 18:10:19 RetrOrangePi NetworkManager[772]: <info> (wlan3): supplicant interface state: ready -> disconnected
+Nov 29 18:10:19 RetrOrangePi NetworkManager[772]: <info> (wlan3) supports 5 scan SSIDs
+Nov 29 18:10:19 RetrOrangePi NetworkManager[772]: <info> startup complete
+Nov 29 18:10:20 RetrOrangePi NetworkManager[772]: <info> (wlan3): supplicant interface state: disconnected -> inactive
+Nov 29 18:10:20 RetrOrangePi NetworkManager[772]: <info> Auto-activating connection 'UPC5F4831F_2G'.
+Nov 29 18:10:20 RetrOrangePi NetworkManager[772]: <info> Activation (wlan3) starting connection 'UPC5F4831F_2G'
+Nov 29 18:10:20 RetrOrangePi NetworkManager[772]: <info> Activation (wlan3) Stage 1 of 5 (Device Prepare) scheduled...
+Nov 29 18:10:20 RetrOrangePi NetworkManager[772]: <info> Activation (wlan3) Stage 1 of 5 (Device Prepare) started...
+Nov 29 18:10:20 RetrOrangePi NetworkManager[772]: <info> (wlan3): device state change: disconnected -> prepare (reason 'none') [30 40 0]
+Nov 29 18:10:20 RetrOrangePi NetworkManager[772]: <info> NetworkManager state is now CONNECTING
+Nov 29 18:10:20 RetrOrangePi NetworkManager[772]: <info> Activation (wlan3) Stage 2 of 5 (Device Configure) scheduled...
+Nov 29 18:10:20 RetrOrangePi NetworkManager[772]: <info> Activation (wlan3) Stage 1 of 5 (Device Prepare) complete.
+Nov 29 18:10:20 RetrOrangePi systemd[1]: Started LSB: start Samba daemons for the AD DC.
+-- Subject: Unit samba-ad-dc.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit samba-ad-dc.service has finished starting up.
+-- 
+-- The start-up result is done.
+Nov 29 18:10:20 RetrOrangePi NetworkManager[772]: <info> Activation (wlan3) Stage 2 of 5 (Device Configure) starting...
+Nov 29 18:10:20 RetrOrangePi NetworkManager[772]: <info> (wlan3): device state change: prepare -> config (reason 'none') [40 50 0]
+Nov 29 18:10:20 RetrOrangePi NetworkManager[772]: <info> Activation (wlan3/wireless): connection 'UPC5F4831F_2G' has security, and secrets exist.  No new secrets needed.
+Nov 29 18:10:20 RetrOrangePi NetworkManager[772]: <info> Config: added 'ssid' value 'UPC5F4831F_2G'
+Nov 29 18:10:20 RetrOrangePi NetworkManager[772]: <info> Config: added 'scan_ssid' value '1'
+Nov 29 18:10:20 RetrOrangePi NetworkManager[772]: <info> Config: added 'key_mgmt' value 'WPA-PSK'
+Nov 29 18:10:20 RetrOrangePi NetworkManager[772]: <info> Config: added 'auth_alg' value 'OPEN'
+Nov 29 18:10:20 RetrOrangePi NetworkManager[772]: <info> Config: added 'psk' value '<omitted>'
+Nov 29 18:10:20 RetrOrangePi NetworkManager[772]: <info> Activation (wlan3) Stage 2 of 5 (Device Configure) complete.
+Nov 29 18:10:20 RetrOrangePi NetworkManager[772]: <info> Config: set interface ap_scan to 1
+Nov 29 18:10:20 RetrOrangePi wpa_supplicant[938]: wlan3: Trying to associate with 54:67:51:e2:30:ab (SSID='UPC5F4831F_2G' freq=2462 MHz)
+Nov 29 18:10:20 RetrOrangePi NetworkManager[772]: <info> (wlan3): supplicant interface state: inactive -> associating
+Nov 29 18:10:20 RetrOrangePi wpa_supplicant[938]: wlan3: Associated with 54:67:51:e2:30:ab
+Nov 29 18:10:20 RetrOrangePi NetworkManager[772]: <info> (wlan3): supplicant interface state: associating -> associated
+Nov 29 18:10:20 RetrOrangePi nmbd[832]: Starting NetBIOS name server: nmbd.
+Nov 29 18:10:20 RetrOrangePi systemd[1]: Started LSB: start Samba NetBIOS nameserver (nmbd).
+-- Subject: Unit nmbd.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit nmbd.service has finished starting up.
+-- 
+-- The start-up result is done.
+Nov 29 18:10:20 RetrOrangePi systemd[1]: Starting LSB: start Samba SMB/CIFS daemon (smbd)...
+-- Subject: Unit smbd.service has begun with start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit smbd.service has begun starting up.
+Nov 29 18:10:20 RetrOrangePi NetworkManager[772]: <info> (wlan3): supplicant interface state: associated -> 4-way handshake
+Nov 29 18:10:20 RetrOrangePi wpa_supplicant[938]: wlan3: WPA: Key negotiation completed with 54:67:51:e2:30:ab [PTK=CCMP GTK=TKIP]
+Nov 29 18:10:20 RetrOrangePi wpa_supplicant[938]: wlan3: CTRL-EVENT-CONNECTED - Connection to 54:67:51:e2:30:ab completed [id=0 id_str=]
+Nov 29 18:10:20 RetrOrangePi NetworkManager[772]: <info> (wlan3): supplicant interface state: 4-way handshake -> completed
+Nov 29 18:10:20 RetrOrangePi NetworkManager[772]: <info> Activation (wlan3/wireless) Stage 2 of 5 (Device Configure) successful.  Connected to wireless network 'UPC5F4831F_2G'.
+Nov 29 18:10:20 RetrOrangePi NetworkManager[772]: <info> Activation (wlan3) Stage 3 of 5 (IP Configure Start) scheduled.
+Nov 29 18:10:20 RetrOrangePi NetworkManager[772]: <info> Activation (wlan3) Stage 3 of 5 (IP Configure Start) started...
+Nov 29 18:10:20 RetrOrangePi NetworkManager[772]: <info> (wlan3): device state change: config -> ip-config (reason 'none') [50 70 0]
+Nov 29 18:10:20 RetrOrangePi NetworkManager[772]: <info> Activation (wlan3) Beginning DHCPv4 transaction (timeout in 45 seconds)
+Nov 29 18:10:20 RetrOrangePi NetworkManager[772]: <info> dhclient started with pid 945
+Nov 29 18:10:20 RetrOrangePi NetworkManager[772]: <info> Activation (wlan3) Stage 3 of 5 (IP Configure Start) complete.
+Nov 29 18:10:21 RetrOrangePi NetworkManager[772]: <info> (wlan3): DHCPv4 state changed nbi -> preinit
+Nov 29 18:10:21 RetrOrangePi dhclient[945]: DHCPREQUEST on wlan3 to 255.255.255.255 port 67
+Nov 29 18:10:21 RetrOrangePi dhclient[945]: DHCPACK from 192.168.0.1
+Nov 29 18:10:21 RetrOrangePi NetworkManager[772]: <info> (wlan3): DHCPv4 state changed preinit -> reboot
+Nov 29 18:10:21 RetrOrangePi NetworkManager[772]: <info>   address 192.168.0.192
+Nov 29 18:10:21 RetrOrangePi NetworkManager[772]: <info>   plen 24 (255.255.255.0)
+Nov 29 18:10:21 RetrOrangePi NetworkManager[772]: <info>   gateway 192.168.0.1
+Nov 29 18:10:21 RetrOrangePi NetworkManager[772]: <info>   server identifier 192.168.0.1
+Nov 29 18:10:21 RetrOrangePi NetworkManager[772]: <info>   lease time 31536000
+Nov 29 18:10:21 RetrOrangePi NetworkManager[772]: <info>   hostname 'RetrOrangePi'
+Nov 29 18:10:21 RetrOrangePi NetworkManager[772]: <info>   nameserver '213.46.246.54'
+Nov 29 18:10:21 RetrOrangePi NetworkManager[772]: <info>   nameserver '213.46.246.53'
+Nov 29 18:10:21 RetrOrangePi NetworkManager[772]: <info>   domain name 'home'
+Nov 29 18:10:21 RetrOrangePi NetworkManager[772]: <info> Activation (wlan3) Stage 5 of 5 (IPv4 Configure Commit) scheduled...
+Nov 29 18:10:21 RetrOrangePi NetworkManager[772]: <info> Activation (wlan3) Stage 5 of 5 (IPv4 Commit) started...
+Nov 29 18:10:21 RetrOrangePi NetworkManager[772]: <info> (wlan3): device state change: ip-config -> ip-check (reason 'none') [70 80 0]
+Nov 29 18:10:21 RetrOrangePi NetworkManager[772]: <info> Activation (wlan3) Stage 5 of 5 (IPv4 Commit) complete.
+Nov 29 18:10:21 RetrOrangePi NetworkManager[772]: <info> (wlan3): device state change: ip-check -> secondaries (reason 'none') [80 90 0]
+Nov 29 18:10:21 RetrOrangePi dhclient[945]: bound to 192.168.0.192 -- renewal in 12437650 seconds.
+Nov 29 18:10:21 RetrOrangePi NetworkManager[772]: <info> (wlan3): device state change: secondaries -> activated (reason 'none') [90 100 0]
+Nov 29 18:10:21 RetrOrangePi NetworkManager[772]: <info> NetworkManager state is now CONNECTED_LOCAL
+Nov 29 18:10:21 RetrOrangePi NetworkManager[772]: <info> NetworkManager state is now CONNECTED_GLOBAL
+Nov 29 18:10:21 RetrOrangePi NetworkManager[772]: <info> Policy set 'UPC5F4831F_2G' (wlan3) as default for IPv4 routing and DNS.
+Nov 29 18:10:21 RetrOrangePi NetworkManager[772]: <info> Activation (wlan3) successful, device activated.
+Nov 29 18:10:21 RetrOrangePi dbus[802]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service'
+Nov 29 18:10:21 RetrOrangePi systemd[1]: Starting Network Manager Script Dispatcher Service...
+-- Subject: Unit NetworkManager-dispatcher.service has begun with start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit NetworkManager-dispatcher.service has begun starting up.
+Nov 29 18:10:21 RetrOrangePi dbus[802]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Nov 29 18:10:21 RetrOrangePi systemd[1]: Started Network Manager Script Dispatcher Service.
+-- Subject: Unit NetworkManager-dispatcher.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit NetworkManager-dispatcher.service has finished starting up.
+-- 
+-- The start-up result is done.
+Nov 29 18:10:21 RetrOrangePi nm-dispatcher[952]: Dispatching action 'up' for wlan3
+Nov 29 18:10:22 RetrOrangePi systemd[1]: Reloading OpenBSD Secure Shell server.
+-- Subject: Unit ssh.service has begun with reloading its configuration
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit ssh.service has begun with reloading its configuration
+Nov 29 18:10:22 RetrOrangePi smbd[944]: Starting SMB/CIFS daemon: smbd.
+Nov 29 18:10:22 RetrOrangePi sshd[903]: Received SIGHUP; restarting.
+Nov 29 18:10:22 RetrOrangePi sshd[903]: Server listening on 0.0.0.0 port 22.
+Nov 29 18:10:22 RetrOrangePi sshd[903]: Server listening on :: port 22.
+Nov 29 18:10:22 RetrOrangePi systemd[1]: Reloaded OpenBSD Secure Shell server.
+-- Subject: Unit ssh.service has finished reloading its configuration
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit ssh.service has finished reloading its configuration
+-- 
+-- The result is done.
+Nov 29 18:10:22 RetrOrangePi systemd[1]: Started LSB: start Samba SMB/CIFS daemon (smbd).
+-- Subject: Unit smbd.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit smbd.service has finished starting up.
+-- 
+-- The start-up result is done.
+Nov 29 18:10:22 RetrOrangePi systemd[1]: Starting CUPS Printing Service...
+-- Subject: Unit cups.service has begun with start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit cups.service has begun starting up.
+Nov 29 18:10:22 RetrOrangePi systemd[1]: Started CUPS Printing Service.
+-- Subject: Unit cups.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit cups.service has finished starting up.
+-- 
+-- The start-up result is done.
+Nov 29 18:10:24 RetrOrangePi ntpd[889]: Listen normally on 4 wlan3 192.168.0.192 UDP 123
+Nov 29 18:10:24 RetrOrangePi ntpd[889]: Listen normally on 5 wlan3 fe80::ceb8:a8ff:feab:c212 UDP 123
+Nov 29 18:10:24 RetrOrangePi ntpd[889]: peers refreshed
+Nov 29 18:10:25 RetrOrangePi login[923]: pam_unix(login:session): session opened for user pi by LOGIN(uid=0)
+Nov 29 18:10:25 RetrOrangePi systemd[1]: Starting user-1000.slice.
+-- Subject: Unit user-1000.slice has begun with start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit user-1000.slice has begun starting up.
+Nov 29 18:10:25 RetrOrangePi systemd[1]: Created slice user-1000.slice.
+-- Subject: Unit user-1000.slice has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit user-1000.slice has finished starting up.
+-- 
+-- The start-up result is done.
+Nov 29 18:10:25 RetrOrangePi systemd[1]: Starting User Manager for UID 1000...
+-- Subject: Unit user@1000.service has begun with start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit user@1000.service has begun starting up.
+Nov 29 18:10:25 RetrOrangePi systemd-logind[798]: New session 2 of user pi.
+-- Subject: A new session 2 has been created for user pi
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- Documentation: http://www.freedesktop.org/wiki/Software/systemd/multiseat
+-- 
+-- A new session with the ID 2 has been created for the user pi.
+-- 
+-- The leading process of the session is 923.
+Nov 29 18:10:25 RetrOrangePi systemd[1]: Starting Session 2 of user pi.
+-- Subject: Unit session-2.scope has begun with start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit session-2.scope has begun starting up.
+Nov 29 18:10:25 RetrOrangePi systemd[1110]: pam_unix(systemd-user:session): session opened for user pi by (uid=0)
+Nov 29 18:10:25 RetrOrangePi systemd[1]: Started Session 2 of user pi.
+-- Subject: Unit session-2.scope has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit session-2.scope has finished starting up.
+-- 
+-- The start-up result is done.
+Nov 29 18:10:25 RetrOrangePi systemd[1110]: Starting Paths.
+-- Subject: Unit UNIT has begun with start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit UNIT has begun starting up.
+Nov 29 18:10:25 RetrOrangePi systemd[1110]: Reached target Paths.
+-- Subject: Unit UNIT has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit UNIT has finished starting up.
+-- 
+-- The start-up result is done.
+Nov 29 18:10:25 RetrOrangePi systemd[1110]: Starting Timers.
+-- Subject: Unit UNIT has begun with start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit UNIT has begun starting up.
+Nov 29 18:10:25 RetrOrangePi systemd[1110]: Reached target Timers.
+-- Subject: Unit UNIT has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit UNIT has finished starting up.
+-- 
+-- The start-up result is done.
+Nov 29 18:10:25 RetrOrangePi systemd[1110]: Starting Sockets.
+-- Subject: Unit UNIT has begun with start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit UNIT has begun starting up.
+Nov 29 18:10:25 RetrOrangePi systemd[1110]: Reached target Sockets.
+-- Subject: Unit UNIT has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit UNIT has finished starting up.
+-- 
+-- The start-up result is done.
+Nov 29 18:10:25 RetrOrangePi systemd[1110]: Starting Basic System.
+-- Subject: Unit UNIT has begun with start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit UNIT has begun starting up.
+Nov 29 18:10:25 RetrOrangePi systemd[1110]: Reached target Basic System.
+-- Subject: Unit UNIT has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit UNIT has finished starting up.
+-- 
+-- The start-up result is done.
+Nov 29 18:10:25 RetrOrangePi systemd[1110]: Starting Default.
+-- Subject: Unit UNIT has begun with start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit UNIT has begun starting up.
+Nov 29 18:10:25 RetrOrangePi systemd[1110]: Reached target Default.
+-- Subject: Unit UNIT has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit UNIT has finished starting up.
+-- 
+-- The start-up result is done.
+Nov 29 18:10:25 RetrOrangePi systemd[1110]: Startup finished in 97ms.
+-- Subject: System start-up is now complete
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- All system services necessary queued for starting at boot have been
+-- successfully started. Note that this does not mean that the machine is
+-- now idle as services might still be busy with completing start-up.
+-- 
+-- Kernel start-up required KERNEL_USEC microseconds.
+-- 
+-- Initial RAM disk start-up required INITRD_USEC microseconds.
+-- 
+-- Userspace start-up required 97954 microseconds.
+Nov 29 18:10:25 RetrOrangePi systemd[1]: Started User Manager for UID 1000.
+-- Subject: Unit user@1000.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit user@1000.service has finished starting up.
+-- 
+-- The start-up result is done.
+Nov 29 18:10:25 RetrOrangePi sudo[1123]: pi : TTY=tty1 ; PWD=/home/pi ; USER=root ; COMMAND=/usr/bin/killall -q fbi
+Nov 29 18:10:25 RetrOrangePi sudo[1123]: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Nov 29 18:10:25 RetrOrangePi sudo[1123]: pam_unix(sudo:session): session closed for user root
+Nov 29 18:10:25 RetrOrangePi CRON[799]: pam_unix(cron:session): session closed for user root
+Nov 29 18:10:26 RetrOrangePi ntpd_intres[891]: DNS 0.debian.pool.ntp.org -> 185.82.232.254
+Nov 29 18:10:26 RetrOrangePi ntpd_intres[891]: DNS 1.debian.pool.ntp.org -> 62.112.195.56
+Nov 29 18:10:26 RetrOrangePi ntpd_intres[891]: DNS 2.debian.pool.ntp.org -> 84.2.46.19
+Nov 29 18:10:26 RetrOrangePi ntpd_intres[891]: DNS 3.debian.pool.ntp.org -> 185.82.232.254
+Nov 29 18:10:27 RetrOrangePi ap6212-bluetooth[841]: Initialization timed out.
+Nov 29 18:10:27 RetrOrangePi ap6212-bluetooth[841]: bcm43xx_init
+Nov 29 18:13:52 RetrOrangePi systemd[1110]: Time has been changed
+-- Subject: Time change
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- The system clock has been changed to REALTIME microseconds after January 1st, 1970.
+Nov 29 18:13:52 RetrOrangePi systemd[1]: Time has been changed
+-- Subject: Time change
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- The system clock has been changed to REALTIME microseconds after January 1st, 1970.
+Nov 29 18:14:16 RetrOrangePi ap6212-bluetooth[841]: Can't get device info: No such device
+Nov 29 18:14:16 RetrOrangePi systemd[1]: ap6212-bluetooth.service: control process exited, code=exited status=1
+Nov 29 18:14:16 RetrOrangePi systemd[1]: Failed to start LSB: Patch firmware for ap6212 adapter.
+-- Subject: Unit ap6212-bluetooth.service has failed
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit ap6212-bluetooth.service has failed.
+-- 
+-- The result is failed.
+Nov 29 18:14:16 RetrOrangePi systemd[1]: Unit ap6212-bluetooth.service entered failed state.
+Nov 29 18:14:16 RetrOrangePi systemd[1]: Starting Multi-User System.
+-- Subject: Unit multi-user.target has begun with start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit multi-user.target has begun starting up.
+Nov 29 18:14:16 RetrOrangePi systemd[1]: Reached target Multi-User System.
+-- Subject: Unit multi-user.target has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit multi-user.target has finished starting up.
+-- 
+-- The start-up result is done.
+Nov 29 18:14:16 RetrOrangePi systemd[1]: Starting RETRORANGEPI CONTROLLER...
+-- Subject: Unit tz_gpio.service has begun with start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit tz_gpio.service has begun starting up.
+Nov 29 18:14:17 RetrOrangePi systemd[1]: Started RETRORANGEPI CONTROLLER.
+-- Subject: Unit tz_gpio.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit tz_gpio.service has finished starting up.
+-- 
+-- The start-up result is done.
+Nov 29 18:14:17 RetrOrangePi systemd[1]: Starting Update UTMP about System Runlevel Changes...
+-- Subject: Unit systemd-update-utmp-runlevel.service has begun with start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-update-utmp-runlevel.service has begun starting up.
+Nov 29 18:14:17 RetrOrangePi systemd[1]: Started Update UTMP about System Runlevel Changes.
+-- Subject: Unit systemd-update-utmp-runlevel.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-update-utmp-runlevel.service has finished starting up.
+-- 
+-- The start-up result is done.
+Nov 29 18:14:17 RetrOrangePi systemd[1]: Startup finished in 3.168s (kernel) + 53.881s (userspace) = 57.050s.
+-- Subject: System start-up is now complete
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- All system services necessary queued for starting at boot have been
+-- successfully started. Note that this does not mean that the machine is
+-- now idle as services might still be busy with completing start-up.
+-- 
+-- Kernel start-up required 3168494 microseconds.
+-- 
+-- Initial RAM disk start-up required INITRD_USEC microseconds.
+-- 
+-- Userspace start-up required 53881807 microseconds.
+Nov 29 18:14:29 RetrOrangePi systemd[1]: Starting Getty on tty5...
+-- Subject: Unit getty@tty5.service has begun with start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit getty@tty5.service has begun starting up.
+Nov 29 18:14:29 RetrOrangePi systemd[1]: Started Getty on tty5.
+-- Subject: Unit getty@tty5.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit getty@tty5.service has finished starting up.
+-- 
+-- The start-up result is done.
+Nov 29 18:14:32 RetrOrangePi sudo[1239]: pi : TTY=tty1 ; PWD=/home/pi ; USER=root ; COMMAND=/usr/bin/tee /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor
+Nov 29 18:14:33 RetrOrangePi sudo[1239]: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Nov 29 18:14:33 RetrOrangePi sudo[1239]: pam_unix(sudo:session): session closed for user root
+Nov 29 18:14:33 RetrOrangePi sudo[1242]: pi : TTY=tty1 ; PWD=/home/pi ; USER=root ; COMMAND=/usr/bin/tee /sys/devices/system/cpu/cpu1/cpufreq/scaling_governor
+Nov 29 18:14:33 RetrOrangePi sudo[1242]: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Nov 29 18:14:33 RetrOrangePi sudo[1242]: pam_unix(sudo:session): session closed for user root
+Nov 29 18:14:33 RetrOrangePi sudo[1245]: pi : TTY=tty1 ; PWD=/home/pi ; USER=root ; COMMAND=/usr/bin/tee /sys/devices/system/cpu/cpu2/cpufreq/scaling_governor
+Nov 29 18:14:33 RetrOrangePi sudo[1245]: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Nov 29 18:14:33 RetrOrangePi sudo[1245]: pam_unix(sudo:session): session closed for user root
+Nov 29 18:14:33 RetrOrangePi sudo[1248]: pi : TTY=tty1 ; PWD=/home/pi ; USER=root ; COMMAND=/usr/bin/tee /sys/devices/system/cpu/cpu3/cpufreq/scaling_governor
+Nov 29 18:14:33 RetrOrangePi sudo[1248]: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Nov 29 18:14:33 RetrOrangePi sudo[1248]: pam_unix(sudo:session): session closed for user root
+Nov 29 18:15:01 RetrOrangePi CRON[1258]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 29 18:15:01 RetrOrangePi CRON[1259]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 29 18:15:01 RetrOrangePi CRON[1260]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Nov 29 18:15:01 RetrOrangePi CRON[1261]: (root) CMD (/usr/lib/armbian/armbian-truncate-logs)
+Nov 29 18:15:01 RetrOrangePi CRON[1258]: pam_unix(cron:session): session closed for user root
+Nov 29 18:15:01 RetrOrangePi CRON[1259]: pam_unix(cron:session): session closed for user root
+Nov 29 18:16:07 RetrOrangePi sshd[1269]: Accepted password for pi from 192.168.0.187 port 57160 ssh2
+Nov 29 18:16:07 RetrOrangePi sshd[1269]: pam_unix(sshd:session): session opened for user pi by (uid=0)
+Nov 29 18:16:07 RetrOrangePi systemd[1]: Starting Session 5 of user pi.
+-- Subject: Unit session-5.scope has begun with start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit session-5.scope has begun starting up.
+Nov 29 18:16:07 RetrOrangePi systemd-logind[798]: New session 5 of user pi.
+-- Subject: A new session 5 has been created for user pi
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- Documentation: http://www.freedesktop.org/wiki/Software/systemd/multiseat
+-- 
+-- A new session with the ID 5 has been created for the user pi.
+-- 
+-- The leading process of the session is 1269.
+Nov 29 18:16:07 RetrOrangePi systemd[1]: Started Session 5 of user pi.
+-- Subject: Unit session-5.scope has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit session-5.scope has finished starting up.
+-- 
+-- The start-up result is done.
+Nov 29 18:16:50 RetrOrangePi sudo[1364]: pi : TTY=pts/0 ; PWD=/home/pi ; USER=root ; COMMAND=/bin/journalctl -xb --vacuum-time=1d
+Nov 29 18:16:50 RetrOrangePi sudo[1364]: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Nov 29 18:16:50 RetrOrangePi sudo[1364]: pam_unix(sudo:session): session closed for user root
+Nov 29 18:17:01 RetrOrangePi CRON[1366]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 29 18:17:01 RetrOrangePi CRON[1367]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Nov 29 18:17:01 RetrOrangePi CRON[1366]: pam_unix(cron:session): session closed for user root
+Nov 29 18:17:08 RetrOrangePi sudo[1376]: pi : TTY=pts/0 ; PWD=/home/pi ; USER=root ; COMMAND=/bin/journalctl -xb
+Nov 29 18:17:08 RetrOrangePi sudo[1376]: pam_unix(sudo:session): session opened for user root by pi(uid=0)
